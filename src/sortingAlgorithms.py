@@ -265,7 +265,7 @@ class Sorter:
         if display:
             plt.show()
 
-        filename = "../figures/SortingComparison{}.png".format(numIterations * 10)
+        filename = "SortingComparison{}.png".format(numIterations * 10)
         plt.savefig(filename)
 
 
